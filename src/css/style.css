@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.calendar-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #375e97;
+}
+.react-calendar {
+    box-shadow: 0 35px 68px 0 rgba(35, 59, 95, 0.42), inset 0 -8px 16px 0 #5883c2;
+    border-radius: 30px;
+    overflow: hidden;
+    border: none;
+}
+.react-calendar__navigation__arrow, .react-calendar__navigation__label {
+    color: #3f681c;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.react-calendar__month-view__weekdays {
+    color: #fb6542;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+}
+.react-calendar__tile {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.react-calendar__tile--now {
+    background: #fb0;
+    border-radius: 3px;
+}
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background: #ffcf4d;
+}
+.react-calendar__tile--active {
+    background: #3f681c;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background: #579027;
+}
