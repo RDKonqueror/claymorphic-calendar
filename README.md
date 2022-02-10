@@ -1,6 +1,13 @@
 <h1 align="center">Claymorphic Calendar</h1>
 
-A react calendar app with claymorphic design.
+<div align="center">
+  A react calendar app with claymorphic design.
+  <h3>
+    <a href="https://claymorphic-calendar.firebaseapp.com">
+      See Demo
+    </a>
+  </h3>
+</div>
 
 
 ### Built With
